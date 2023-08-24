@@ -1,0 +1,28 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--primary-all);
+  font-weight: 400;
+}
+body {
+  color: var(--darkblue);
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+/* Font Size */
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 24px;
+}

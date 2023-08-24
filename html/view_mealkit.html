@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-1.4.1.js"></script>
+
+  <!-- Custom JS & CSS -->
+  <script defer src="/script.js"></script>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!-- BootStrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+  <title>Today's Meal Kit</title>
+</head>
+<body>
+	<div class="modal">
+		<div class="header">
+			<div class="header-inner">
+				<div class="modal-display">+ Viewmore</div>
+			</div>
+		</div>
+		<div class="viewmore-main mealkit">
+			<div class="viewmore-heading">
+				<span>PROJECT #01</span>
+				<h1>Today's Meal Kit</h1>
+			</div>
+		</div>
+	</div>
+	<div class="mealkit-contents parent-page">
+		<h1>Today's Meal Kit</h1>
+		<div class="mealkit-content all-contents">
+			<div class="mealkit-video mealkit-info">
+				<video src="/img/mealkit.mp4" autoplay muted loop></video>
+			</div>
+			<div class="mealkit-desc mealkit-info">
+				<h3><i class="bi bi-caret-right-fill"></i> 소개</h3>
+				<p>
+					쿠팡, 마켓컬리와 비슷한 형태의 <b>밀키트 사이트</b>입니다. 처음으로 만들어본 모바일 형식의 프로그램으로, 로그인 페이지부터 상품상세 페이지까지 구현되어있습니다. Javascript를 통해 검색기록, 상품 등 삭제기능과 상품목록을 펼쳐 보이게 하는 기능을 구현하였습니다. 외부 플러그인 slick-slider를 통해 다음 메뉴를 넘기면서 볼 수 있게 하는 기능도 구현하였습니다.  
+				</p>
+				<br /><br />
+				<h3><i class="bi bi-caret-right-fill"></i> 느낀점</h3>
+				<p>
+					이렇게 많은 페이지들로 구성된 프로젝트는 처음 만들어봤기에 만들기 전에는 부담으로 다가왔습니다. 하지만 Figma로 박스구성까지 마친 후 한 페이지씩 직접 코딩을 해보니 어려운 것보다 미세한 부분의 꼼꼼함을 요구하는 작업같았습니다. 또한 상단/하단 메뉴바같은 경우는 각각의 html을 만들어놓고 각 메뉴마다 끌어와서 사용했더니 훨씬 편하게 작업할 수 있었습니다. 모든 페이지를 만든 후 onclick 기능을 사용해 페이지 간 이동이 가능하게끔 설정하였더니, 정말 일반 쇼핑어플과 다른 바 없어서 자신감을 얻게 되는 경험이었습니다.
+				</p>
+				<a class="view-project" href="#">
+					View Site<i class="bi bi-arrow-right"></i>
+				</a>
+				<!-- <button>View Details</button> -->
+			</div>
+		</div>
+	</div>
+</body>
+</html>

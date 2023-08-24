@@ -1,0 +1,115 @@
+/* ## Viewmore Page ## */
+.modal {
+    font-family: var(--primary-en);
+    position: relative;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.header-inner {
+  width: 95%;
+  margin: auto;
+  height: 70px;
+  line-height: 70px;
+}
+.modal-display {
+  font-size: 18px;
+}
+.viewmore-page {
+  position: relative;
+}
+.viewmore-main {
+  position: relative;
+  background-size: cover;
+  height: 100vh;
+}
+.viewmore-main.mealkit {
+  background: linear-gradient(90deg, rgba(243, 169, 144, 0.5) 0%, rgba(177,107,107,0.5) 100%);
+}
+.viewmore-main.responsive {
+  background: linear-gradient(140deg, rgba(58, 149, 254, 0.4) 0%, rgba(153, 151, 151, 0.5) 100%);
+}
+.viewmore-main.introduce {
+  background: linear-gradient(150deg, rgba(96, 97, 99, 0.5) 30%, rgba(255,244,210,1) 100%);
+}
+.viewmore-heading {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--dark-black);
+  animation: slidedown 1s linear both;
+}
+
+@keyframes slidedown {
+  0% {
+    opacity: 0;
+    margin-top: -50px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+/* #### ViewMore 01 Today's Meal Kit #### */
+.mealkit-content {
+  position: relative;
+  margin: auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.mealkit-contents h1 {
+  text-align: center;
+}
+.mealkit-info {
+  width: 40%;
+}
+.mealkit-video {
+  text-align: center;
+}
+.mealkit-video video {
+  width: 400px;
+  height: 700px;
+  border-radius: 90px;
+  object-fit: cover;
+  background-size: cover;
+  /* border: 1px solid red; */
+}
+.mealkit-desc {
+  background-color: var(--lightwhite);
+  padding: 40px 10px;
+}
+.mealkit-desc h3{
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.mealkit-desc p{
+  margin-left: 30px;
+}
+.mealkit-desc p b {
+  font-weight: 600;
+}
+
+.view-project {
+  background-color: #3f3f3f;
+  padding: 10px;
+  color: #fff;
+  display: inline-block;
+  width: 220px; 
+  font-size: 13px;
+  text-align: center;
+  transition: 0.5s;
+}
+.view-project:hover {
+  background-color: #000;
+}
+.view-project i {
+  transition: 0.5s;
+}
+.view-project:hover i {
+  margin-left: 30px;
+}

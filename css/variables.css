@@ -1,0 +1,23 @@
+/* Google Web Font */
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
+/* ==== 변수 ==== */
+:root {
+  /* Font Family */
+  --primary-all: 'Hahmlet', serif;
+
+  /* Color */
+  --black: #000000;
+  --darkblue: #353E45;
+  --grayblue: #748189;
+  --lightblue: #B8BDC1;
+  --lightwhite: #F2F2F2;
+  --white: #FFFFFF;
+
+  /* Gray Color */
+  --dark-black: #333333;
+  --gray-black: #555555;
+  --dark-gray: #777777;
+  --light-gray: #999999;
+}
